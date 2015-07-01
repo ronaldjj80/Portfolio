@@ -435,9 +435,6 @@ body {
   font-family: 'Raleway';
 }
 
-div {
-  border: 1px solid Chocolate;
-}
 
 .introduction {
   background-image: url('images/DeathtoStock_Wired7.jpg');
@@ -449,10 +446,9 @@ div {
 }
 
 .content {
-  position: absolute;
-  width: 30em;
-  height: 30em;
-  margin-left: 26em;
+  width: 35em;
+  height: 35em;
+  margin-left: 24em;
   text-align: center;
 }
 
@@ -460,29 +456,80 @@ h1 {
   font-family: 'Raleway';
   font-size: 4em;
   font-weight: 100;
-  margin: 0.3em 0;
+  margin: 0em 0;
+  padding-top: 0em;
 }
 
 p {
   font-family: "Open Sans";
   padding-bottom: -0.5em;
-  padding-top: 0.5em;
+  padding-top: 1.5em;
   font-size: 1.4em;
   font-weight: 400;
 }
 
 .content img{
   border-radius: 23em;
+  margin-left: -2em;
 }
 
-.introduction .icons > li{
+.icons li {
 display: inline-block;
 color: white;
 padding-right: 1em;
+margin-top: 0em;
 font-size: 1.5em;
+margin-left: -1em;
+}
+
+.icons{
+ margin-left: -2em
+}
+
+.main {
+  margin-left: -3em;
 }
 
 .main li{
+  font-family: "Open Sans";
   display: inline-block;
-  padding: 20px;
+  color: white;
+  padding-top: 2em;
+  padding-bottom: 0em;
+  margin-top: -1em;
+  margin-left: 2em;
+  font-size: 1em;
+  font-weight: 500;
 }
+
+h2 {
+  color: #E6E0CB;
+  font-size: 3em;
+  font-family: 'Raleway';
+  font-weight: bold;
+  margin: 0px;
+  padding-bottom: 0.5em;
+  padding-top: 1em;
+  text-align: center;
+}
+
+.projectinfo {
+  background-color: #405554;
+  background-image: url('images/projectpic.jpeg');
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 33em;
+  padding-bottom: 3em;
+}
+
+.projectinfo p{
+  color: #E6E0CB;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 1.5em;
+}
+}
+
