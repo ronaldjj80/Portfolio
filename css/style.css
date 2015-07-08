@@ -437,7 +437,7 @@ body {
 
 
 .introduction {
-  background-image: url('images/DeathtoStock_Wired7.jpg');
+  background-image: url('images/canvas.jpg');
   background-position: center bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -454,6 +454,7 @@ body {
 
 h1 {
   font-family: 'Raleway';
+  color: #E6E0CB;
   font-size: 4em;
   font-weight: 100;
   margin: 0em 0;
@@ -462,6 +463,7 @@ h1 {
 
 p {
   font-family: "Open Sans";
+  color: #E6E0CB;
   padding-bottom: -0.5em;
   padding-top: 1.5em;
   font-size: 1.4em;
@@ -474,11 +476,14 @@ p {
 
 .icons li {
 display: inline-block;
-color: white;
 padding-right: 1em;
 margin-top: 0em;
 font-size: 1.5em;
 margin-left: -1em;
+}
+
+.icons a{
+  color: #E6E0CB;
 }
 
 .main {
@@ -488,13 +493,17 @@ margin-left: -1em;
 .main li{
   font-family: "Open Sans";
   display: inline-block;
-  color: #E6E0CB;
-  padding-top: 3em;
+  padding-top: 1em;
   padding-bottom: 0em;
-  margin-top: -1em;
-  margin-left: 2em;
+  margin-top: -0.5em;
+  margin-left: 3em;
   font-size: 1em;
   font-weight: 500;
+}
+
+.main a{
+  color: #E6E0CB;
+  text-decoration: none;
 }
 
 h2 {
@@ -520,12 +529,13 @@ h2 {
 
 .projectinfo p{
   color: #E6E0CB;
-  display: block;
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
   font-size: 1.3em;
 }
+
 .foliolink {
 margin-left: 3em;
 color: #2C3F43;
@@ -563,6 +573,11 @@ padding-top: 1em:;
    margin-top: -4em;
 }
 
+.contact h2{
+  color: #E6E0CB;
+  font-size: 1.3em;
+  margin-top: -2.5em;
+}
 
 
 
